@@ -14,4 +14,16 @@ class Pbj_test < Minitest::Test
 		assert_equal("no bread", bread?("no"))
 	end
 
+	def test_crunchy_pb
+		assert_equal("crunchy pb", peanut_butter?("crunchy"))
+	end
+
+	def test_smooth_pb
+		assert_equal("smooth pb", peanut_butter?("smooth"))
+	end
+
+	def test_no_pb
+		assert_equal("no pb", peanut_butter?("what"))
+	end
+
 end
