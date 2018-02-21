@@ -6,4 +6,12 @@ class Pbj_test < Minitest::Test
 		assert_equal(true,true)
 	end
 
+	def test_bread
+		assert_equal("bread", bread?("yes"))
+	end
+
+	def test_no_bread
+		assert_equal("no bread", bread?("no"))
+	end
+
 end
