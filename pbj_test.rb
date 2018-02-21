@@ -26,4 +26,12 @@ class Pbj_test < Minitest::Test
 		assert_equal("no pb", peanut_butter?("what"))
 	end
 
+	def test_jelly
+		assert_equal("jelly", jelly?("yes"))
+	end
+
+	def test_no_jelly
+		assert_equal("no jelly", jelly?("no"))
+	end
+
 end
