@@ -23,3 +23,9 @@ def jelly?(b)
 		"no jelly"
 	end
 end
+
+def sandwich(c,d)
+	if peanut_butter?("crunchy") && jelly?("yes")
+		"crunchy pbj"
+	end
+end
