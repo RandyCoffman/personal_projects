@@ -15,3 +15,11 @@ def peanut_butter?(a)
 		"no pb"
 	end
 end
+
+def jelly?(b)
+	if b == "yes"
+		"jelly"
+	else
+		"no jelly"
+	end
+end
