@@ -38,4 +38,7 @@ class Pbj_test < Minitest::Test
 		assert_equal("crunchy pbj", sandwich("crunchy", "yes"))
 	end
 
+	def test_smooth_pbj_sandwich
+		assert_equal("smooth pbj", sandwich("smooth", "yes"))
+	end
 end
