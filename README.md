@@ -1,4 +1,4 @@
-## Coin Changer
+## Personal Projects
 These are some personal projects I have done while being in the Mined Minds Bootcamp
 
 Installation:
